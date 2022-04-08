@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu primeiro site</title>
+    <title>Lima Designer - Criação de web sites</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.png">
 </head>
 <body>
     <header>
@@ -18,27 +19,41 @@
             </ul>
         </nav>
     </header>
-    <section id="banner">
-        banner
+    <section id="banner" class="banner">
+        <img src="img/logo.png" alt="logo.png">
     </section>
 
-    <section id="sobre">
-        sobre
+    <section id="sobre" class="flexivel">
+        <article class="borda1" data-anima="esquerda">
+            SEJA BEM VINDO!
+        </article>
+        <article class="borda1" data-anima="direita">
+            Um pouco sobre min
+        </article>
     </section>
 
-    <section id="Portfolio">
+    <section id="portfolio" class="flexivel" data-anima="centro">
         portfolio
     </section>
 
-    <section id="github">
-        github
+    <section id="github" class="flexivel" data-anima="centro">
+        <img class="imgGithub" src="img/layout-github.png" alt="">
     </section>
 
-    <section id="contato">
-        contato
+    <section id="contato" class="flexivel">
+        <article class="borda0" data-anima="esquerda">
+            contato esquerda
+        </article>
+        <article class="borda0" data-anima="centro">
+            contato centro
+        </article>
+        <article class="borda0" data-anima="direita">
+            contato direita
+        </article>
     </section>
 
     <footer>
+       contato
     </footer>
     <script src="scripts.js" type="text/javascript"></script>
 </body>
