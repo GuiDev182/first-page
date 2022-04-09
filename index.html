@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lima Designer - Criação de web sites</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/slideshow.css">
 </head>
 <body>
     <header>
@@ -13,41 +14,54 @@
             <ul>
                 <li><a href="#banner">Home</a></li>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
-                <li><a href="#github">Github</a></li>
+                <li><a href="#terapias">Terapias</a></li>
+                <li><a href="#reiki">Reiki</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
     <section id="banner" class="banner">
-        <img src="img/logo.png" alt="logo.png">
+        <div class="crossfade">
+            <figure></figure>
+            <figure></figure>
+            <figure></figure>
+            <figure></figure>
+            <figure></figure>
+          </div>
     </section>
-
-    <section id="sobre" class="flexivel">
-        <article class="borda1" data-anima="esquerda">
-            SEJA BEM VINDO!
+    <section id="sobre" class="flexivel" >
+        <article  data-anima="esquerda">
+            SEJA BEM VINDO(A)!
         </article>
-        <article class="borda1" data-anima="direita">
+        <article data-anima="direita">
             Um pouco sobre min
         </article>
     </section>
-
-    <section id="portfolio" class="flexivel" data-anima="centro">
-        portfolio
+    <section class="paralax paralax1" >
+        <article>
+            texto<br> texto<br> texto<br> texto<br> texto<br>
+        </article>
     </section>
 
-    <section id="github" class="flexivel" data-anima="centro">
-        <img class="imgGithub" src="img/layout-github.png" alt="">
+    <section id="terapias" class="flexivel" data-anima="centro">
+        terapias
+    </section>
+    <section class="paralax paralax1" >
+        <article>
+            texto<br> texto<br> texto<br> texto<br> texto<br>
+        </article>
+    </section>
+    <section id="reiki" class="flexivel" data-anima="centro">
+        reiki
     </section>
 
     <section id="contato" class="flexivel">
-        <article class="borda0" data-anima="esquerda">
-            contato esquerda
+        <article class="contatoEsquerda" data-anima="esquerda">
+            <div class="circle">
+                <img src="img/img6.JPG">
+              </div>
         </article>
-        <article class="borda0" data-anima="centro">
-            contato centro
-        </article>
-        <article class="borda0" data-anima="direita">
+        <article class="contatoDireita" data-anima="direita">
             contato direita
         </article>
     </section>

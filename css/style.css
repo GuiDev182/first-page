@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 html{
     scroll-behavior: smooth;
@@ -55,28 +56,16 @@ article{
 .banner img{
     width: 100%;  
 }
-#sobre, #github{
+#sobre, #terapias{
     background-color: #F7CCAC;
 }
 #contato{
     background-color: #C69B7B;
 }
-section .imgGithub{
-    width: 100%;
-   
-}
+ 
 footer{
     background-color: #826F66;
     
-}
-.borda0{
-    border: none;
-}
-.borda1{
-    border: 1px solid #000;
-}
-.borda2{
-    border: 1px solid #f00;
 }
 
 .flexivel{
@@ -89,7 +78,7 @@ footer{
 
 [data-anima]{
     opacity: 0;
-    transition: .6s;
+        transition: .6s;
 }
 
 [data-anima="esquerda"]{
@@ -105,3 +94,28 @@ footer{
     opacity: 1;
     transform: translate3d(0,0,0);
 }
+
+/*PARALAX*/
+
+.paralax{
+    background-attachment: fixed;
+    background-size: cover;
+}
+.paralax1{
+    background-image: url('../img/paralax1.png');
+}
+
+/*CONTATO*/
+.circle {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .circle img {
+    bottom: 0;  
+    width: 100%;
+  }
