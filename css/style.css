@@ -11,9 +11,10 @@ header{
     padding: 15px 0px;
     position: fixed;
     width: 100%;
-    background-color: #3A3845;
+    background-color: #AD8B73;
     border-radius: 5px;
     z-index: 9999;
+    
 }
 
 header nav ul{
@@ -22,18 +23,27 @@ header nav ul{
 }
 header nav ul li{
     display: inline;
+    
 }
 header nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #888;
+    color: rgb(0, 0, 0);
     font-family: Arial;
     font-size: 1.2em;
     padding: 2px 10px;
     display: inline-block;
 }
 header nav ul li a:hover{
-    color: #b6dbf1;
+    color: #F7CCAC;
+}
+header nav img{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    
 }
 section{
     width: 100%;
